@@ -1,7 +1,8 @@
-Python Docs Sphinx Theme
+Tohil Docs Sphinx Theme
 =========================
 
-This is the theme for the Python documentation.
+This is the theme for the Tohil documentation, heavily heavily based on
+the theme for the Python documentation at https://github.com/python/python-docs-theme.
 
 Note that when adopting this theme, you're also borrowing an element of the
 trust and credibility established by the CPython core developers over the
@@ -19,6 +20,9 @@ Configuration options
 
 To use this theme, add the following to ``conf.py``:
 
-- ``html_theme = 'python_docs_theme'``
+- ``html_theme = 'tohil_docs_theme'``
 
 - ``html_sidebars``, defaults taken from http://www.sphinx-doc.org/en/stable/config.html#confval-html_sidebars
+
+But really you probably want to start with this or the Python theme or whatever, and
+change the theme.conf, etc.
